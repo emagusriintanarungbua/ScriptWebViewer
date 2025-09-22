@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Biodata</title>
+</head>
+<body>
+  <h2>Form Biodata Diri</h2>
+  <form>
+    Nama: <input type="text" name="nama"><br><br>
+    Tanggal Lahir: <input type="date" name="ttl"><br><br>
+    Alamat: <input type="text" name="alamat"><br><br>
+    Email: <input type="email" name="email"><br><br>
+    No HP: <input type="tel" name="nohp"><br><br>
+    Hobi: <input type="text" name="hobi"><br><br>
+    Jenis Kelamin: 
+    <input type="radio" name="jk" value="Laki-laki"> Laki-laki
+    <input type="radio" name="jk" value="Perempuan"> Perempuan
+    <br><br>
+    <input type="submit" value="Kirim">
+  </form>
+</body>
+</html>
